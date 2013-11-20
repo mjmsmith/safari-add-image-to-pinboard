@@ -15,7 +15,7 @@ function onCommand(event) {
             "?url=" + encodeURIComponent(event.userInfo.src) +
             "&title=" + encodeURIComponent(title) +
             "&description=[source " + encodeURIComponent(event.userInfo.baseURI) + "]" +
-            "&tags=" + encodeURIComponent(safari.extension.settings.defaultTags + " ") +
+            "&tags=" + encodeURIComponent(safari.extension.settings.defaultTags || "") +
             "&extz=com.camazotz.addimagetopinboard";
 }
 
