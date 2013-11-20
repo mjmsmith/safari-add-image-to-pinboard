@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.1.0</string>
+	<string>0.2.0</string>
 	<key>CFBundleVersion</key>
-	<string>0.1.0</string>
+	<string>0.2.0</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Context Menu Items</key>
@@ -47,7 +47,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>Add image to Pinboard</string>
+	<string>Contextual menu item to add images to Pinboard</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -58,6 +58,8 @@
 			<string>None</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://raw.github.com/mjmsmith/safari-add-image-to-pinboard/v0.2.0/UpdateManifest.xml</string>
 	<key>Website</key>
 	<string>http://camazotz.com</string>
 </dict>
