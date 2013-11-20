@@ -1,4 +1,4 @@
 safari-add-image-to-pinboard
 ============================
 
-Safari extension implementing a contextual menu for adding images to Pinboard.
+Contextual menu item Safari extension for adding images to Pinboard.
