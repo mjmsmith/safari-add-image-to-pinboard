@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Mark Smith</string>
+	<key>Builder Version</key>
+	<string>9537.71</string>
+	<key>CFBundleDisplayName</key>
+	<string>Add Image to Pinboard</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.camazotz.addimagetopinboard</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Context Menu Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>add</string>
+				<key>Identifier</key>
+				<string>add</string>
+				<key>Title</key>
+				<string>Add Image to Pinboard</string>
+			</dict>
+		</array>
+		<key>Global Page</key>
+		<string>GlobalPage.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>EndScript.js</string>
+			</array>
+			<key>Start</key>
+			<array>
+				<string>StartScript.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Add image to Pinboard</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://camazotz.com</string>
+</dict>
+</plist>
