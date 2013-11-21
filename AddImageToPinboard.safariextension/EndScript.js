@@ -19,9 +19,21 @@ function onMessage(event) {
    }
 }
 
-if (/&extz=com.camazotz.addimagetopinboard$/.test(document.documentURI)) {
+if (/&extz=com[.]camazotz[.]addimagetopinboard$/.test(document.documentURI)) {
   safari.self.addEventListener("message", onMessage, false);
   safari.self.tab.dispatchMessage("getSettings");
+}
+else if (/pinboard[.]in[/]add$/.test(document.documentURI)) {
+  var i = 0;
+  var children = document.body.children;
+
+  while (i < children.length && children[i].nodeName === "SCRIPT") {
+    ++i;
+  }
+
+  if (i === document.body.children.length) {
+    safari.self.tab.dispatchMessage("closeWindow");
+  }
 }
 else {
   document.addEventListener("contextmenu", onContextMenu, false);
