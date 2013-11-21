@@ -10,11 +10,11 @@
        <key>Developer Identifier</key>
        <string>G7ZK42W7RU</string>
        <key>CFBundleVersion</key>
-       <string>0.7.0</string>
+       <string>0.8.0</string>
        <key>CFBundleShortVersionString</key>
-       <string>0.7.0</string>
+       <string>0.8.0</string>
        <key>URL</key>
-       <string>https://raw.github.com/mjmsmith/safari-add-image-to-pinboard/v0.7.0/AddImageToPinboard.safariextz</string>
+       <string>https://raw.github.com/mjmsmith/safari-add-image-to-pinboard/v0.8.0/AddImageToPinboard.safariextz</string>
      </dict>
    </array>
 </dict>
