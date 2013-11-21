@@ -16,7 +16,7 @@
 	</dict>
 	<dict>
 		<key>DefaultValue</key>
-		<real>650</real>
+		<real>700</real>
 		<key>Key</key>
 		<string>windowWidth</string>
 		<key>MaximumValue</key>
@@ -30,7 +30,7 @@
 	</dict>
 	<dict>
 		<key>DefaultValue</key>
-		<real>400</real>
+		<real>550</real>
 		<key>Key</key>
 		<string>windowHeight</string>
 		<key>MaximumValue</key>
