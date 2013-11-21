@@ -1,10 +1,5 @@
-function onContextMenu(event) {
-}
-
 function onValidate(event) {
-  if (!event.userInfo) {
-    event.target.disabled = true;
-  }
+  event.target.disabled = !event.userInfo;
 }
 
 function onCommand(event) {
@@ -26,9 +21,11 @@ function onMessage(event) {
       windowHeight: safari.extension.settings.windowHeight
     });
   }
+  else if (event.name === "closeWindow") {
+    event.target.browserWindow.close();
+  }
 }
 
-safari.application.addEventListener("contextmenu", onContextMenu, false);
 safari.application.addEventListener("validate", onValidate, false);
 safari.application.addEventListener("command", onCommand, false);
 safari.application.addEventListener("message", onMessage, false);
