@@ -14,8 +14,8 @@ function onContextMenu(event) {
 function onMessage(event) {
    if (event.name === "setSettings") {
       settings = event.message;
-      window.resizeTo((parseInt(settings.windowWidth, 10) || 500),
-                      (parseInt(settings.windowHeight, 10) || 750));
+      window.resizeTo((parseInt(settings.windowWidth, 10) || 700),
+                      (parseInt(settings.windowHeight, 10) || 550));
    }
 }
 
